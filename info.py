@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dmx:dmx@cluster0.3iwdvtb.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "tom-cruise-v3")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'tom-cruise-v3')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dmx:dmx@cluster0.t2myp8k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "bellamy-v3")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'bellamy-v3')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
